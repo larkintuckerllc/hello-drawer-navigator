@@ -13,7 +13,7 @@ class A extends PureComponent {
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: "center" }}>
-        <Text>A</Text>
+        <Text style={{ fontSize: 60 }}>A</Text>
       </View>
     );
   }
